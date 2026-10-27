@@ -18,3 +18,8 @@ def test_write_json_creates_parents(tmp_path):
     path = tmp_path / "a" / "b.json"
     write_json(path, {"x": 1})
     assert json.loads(path.read_text()) == {"x": 1}
+
+
+def test_run_info_stores_repo_paths_relative():
+    info = run_info({"settings": str(REPO / "rig" / "c920.json"), "elsewhere": "/tmp/x"})
+    assert info["args"] == {"settings": "rig/c920.json", "elsewhere": "/tmp/x"}
