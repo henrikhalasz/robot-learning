@@ -1,0 +1,20 @@
+[project]
+name = "robot-learning"
+version = "0.1.0"
+description = "Learning robot learning by building it, on SO-101 arms with wrist and scene cameras."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2",
+    "opencv-python>=4.10",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.12"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -7,3 +7,6 @@ __pycache__/
 outputs/
 wandb/
 *.egg-info/
+# Frames and clips from tuning runs stay local; their JSON results are committed.
+rig/**/*.jpg
+rig/**/*.mp4
