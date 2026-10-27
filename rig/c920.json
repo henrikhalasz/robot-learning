@@ -1,0 +1,12 @@
+{
+  "_why": "Fixed for recording at this desk under its final lighting; chosen by the sweeps in scripts/, results in rig/c920-tuning/. Order matters: each auto switch comes before its value.",
+  "power_line_frequency": 1,
+  "auto_exposure_mode": 1,
+  "auto_exposure_priority": 0,
+  "absolute_exposure_time": 156,
+  "gain": 100,
+  "auto_white_balance_temperature": 0,
+  "white_balance_temperature": 2750,
+  "auto_focus": 0,
+  "absolute_focus": 20
+}
