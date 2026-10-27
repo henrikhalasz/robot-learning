@@ -1,0 +1,196 @@
+{
+ "args": {
+  "exposures": "[156, 200, 312]",
+  "gains": "[0, 32, 64, 100, 128]",
+  "wb": "3000",
+  "white_roi": "[100, 300, 300, 450]",
+  "arm_roi": "[290, 90, 480, 260]",
+  "seconds": "2.0",
+  "vendor": "1133",
+  "product": "2277",
+  "camera": "HD Pro Webcam C920",
+  "size": "640x480",
+  "out": "outputs/tuning/exposure-grid"
+ },
+ "git_commit": "aa0c043e5b794fad03a39b06ac1678a6518de706",
+ "git_dirty": false,
+ "time": "2026-10-27T19:39:30+00:00",
+ "machine": "Darwin 24.6.0 arm64",
+ "auto": {
+  "desk_luma": 145.2,
+  "arm_luma": 58.1,
+  "desk_clipped": 0.0,
+  "flicker_pct": 0.025,
+  "noise_desk": 0.8,
+  "noise_arm": 1.05,
+  "exposure_read": 299,
+  "gain_read": 118
+ },
+ "grid": [
+  {
+   "exposure_set": 156,
+   "exposure_read": 156,
+   "gain": 0,
+   "desk_luma": 97.7,
+   "arm_luma": 33.3,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.031,
+   "noise_desk": 0.89,
+   "noise_arm": 0.95
+  },
+  {
+   "exposure_set": 156,
+   "exposure_read": 156,
+   "gain": 32,
+   "desk_luma": 139.4,
+   "arm_luma": 55.4,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.018,
+   "noise_desk": 0.83,
+   "noise_arm": 1.34
+  },
+  {
+   "exposure_set": 156,
+   "exposure_read": 156,
+   "gain": 64,
+   "desk_luma": 165.0,
+   "arm_luma": 70.5,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.022,
+   "noise_desk": 0.91,
+   "noise_arm": 1.42
+  },
+  {
+   "exposure_set": 156,
+   "exposure_read": 156,
+   "gain": 100,
+   "desk_luma": 189.9,
+   "arm_luma": 85.0,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.027,
+   "noise_desk": 0.94,
+   "noise_arm": 1.6
+  },
+  {
+   "exposure_set": 156,
+   "exposure_read": 156,
+   "gain": 128,
+   "desk_luma": 204.8,
+   "arm_luma": 93.7,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.04,
+   "noise_desk": 0.96,
+   "noise_arm": 1.56
+  },
+  {
+   "exposure_set": 200,
+   "exposure_read": 156,
+   "gain": 0,
+   "desk_luma": 97.8,
+   "arm_luma": 33.4,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.036,
+   "noise_desk": 0.88,
+   "noise_arm": 0.95
+  },
+  {
+   "exposure_set": 200,
+   "exposure_read": 156,
+   "gain": 32,
+   "desk_luma": 139.4,
+   "arm_luma": 55.3,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.018,
+   "noise_desk": 0.85,
+   "noise_arm": 1.32
+  },
+  {
+   "exposure_set": 200,
+   "exposure_read": 156,
+   "gain": 64,
+   "desk_luma": 165.0,
+   "arm_luma": 70.5,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.024,
+   "noise_desk": 0.88,
+   "noise_arm": 1.47
+  },
+  {
+   "exposure_set": 200,
+   "exposure_read": 156,
+   "gain": 100,
+   "desk_luma": 189.8,
+   "arm_luma": 85.0,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.036,
+   "noise_desk": 0.96,
+   "noise_arm": 1.56
+  },
+  {
+   "exposure_set": 200,
+   "exposure_read": 156,
+   "gain": 128,
+   "desk_luma": 205.1,
+   "arm_luma": 93.9,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.046,
+   "noise_desk": 0.93,
+   "noise_arm": 1.66
+  },
+  {
+   "exposure_set": 312,
+   "exposure_read": 312,
+   "gain": 0,
+   "desk_luma": 144.2,
+   "arm_luma": 58.3,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.021,
+   "noise_desk": 0.77,
+   "noise_arm": 1.05
+  },
+  {
+   "exposure_set": 312,
+   "exposure_read": 312,
+   "gain": 32,
+   "desk_luma": 191.1,
+   "arm_luma": 85.9,
+   "desk_clipped": 0.0,
+   "flicker_pct": 0.039,
+   "noise_desk": 0.87,
+   "noise_arm": 1.27
+  },
+  {
+   "exposure_set": 312,
+   "exposure_read": 312,
+   "gain": 64,
+   "desk_luma": 221.2,
+   "arm_luma": 104.7,
+   "desk_clipped": 0.087,
+   "flicker_pct": 0.039,
+   "noise_desk": 0.87,
+   "noise_arm": 1.34
+  },
+  {
+   "exposure_set": 312,
+   "exposure_read": 312,
+   "gain": 100,
+   "desk_luma": 242.3,
+   "arm_luma": 123.4,
+   "desk_clipped": 0.606,
+   "flicker_pct": 0.005,
+   "noise_desk": 0.67,
+   "noise_arm": 1.26
+  },
+  {
+   "exposure_set": 312,
+   "exposure_read": 312,
+   "gain": 128,
+   "desk_luma": 249.0,
+   "arm_luma": 133.8,
+   "desk_clipped": 0.997,
+   "flicker_pct": 0.004,
+   "noise_desk": 0.21,
+   "noise_arm": 1.14
+  }
+ ]
+}

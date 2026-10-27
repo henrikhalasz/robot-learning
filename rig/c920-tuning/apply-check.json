@@ -1,0 +1,37 @@
+{
+ "args": {
+  "settings": "rig/c920.json",
+  "vendor": "1133",
+  "product": "2277",
+  "camera": "HD Pro Webcam C920",
+  "size": "640x480",
+  "out": "outputs/tuning/apply-final"
+ },
+ "git_commit": "0248e3beff3cd82213adbf68ec5fcffbc9b43de2",
+ "git_dirty": false,
+ "time": "2026-10-27T19:40:53+00:00",
+ "machine": "Darwin 24.6.0 arm64",
+ "wanted": {
+  "power_line_frequency": 1,
+  "auto_exposure_mode": 1,
+  "auto_exposure_priority": 0,
+  "absolute_exposure_time": 156,
+  "gain": 100,
+  "auto_white_balance_temperature": 0,
+  "white_balance_temperature": 2750,
+  "auto_focus": 0,
+  "absolute_focus": 20
+ },
+ "read_back": {
+  "power_line_frequency": 1,
+  "auto_exposure_mode": 1,
+  "auto_exposure_priority": 0,
+  "absolute_exposure_time": 156,
+  "gain": 100,
+  "auto_white_balance_temperature": 0,
+  "white_balance_temperature": 2750,
+  "auto_focus": 0,
+  "absolute_focus": 20
+ },
+ "mismatches": []
+}

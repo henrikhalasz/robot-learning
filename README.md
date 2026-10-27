@@ -7,6 +7,8 @@ Learning robot learning by building it, on two SO-101 arms with wrist and scene 
   then the numbers with their intervals.
 - `src/robot_learning/`: the one package all builds and experiments share; `scripts/` are thin
   command-line entry points into it.
+- `rig/`: the desk itself: wiring, camera placement, and the scene camera's fixed settings with the
+  measurements that chose them.
 - `outputs/`: where runs write by default (git-ignored). Every output saves its arguments and the
   git commit that produced it.
 
